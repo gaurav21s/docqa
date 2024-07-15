@@ -1,0 +1,9 @@
+scrapy
+beautifulsoup4
+numpy
+scikit-learn
+sentence-transformers
+pymilvus
+torch
+streamlit
+llama-index
