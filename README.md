@@ -80,13 +80,21 @@ This project implements a Question Answering system for NVIDIA CUDA documentatio
 2. Open your web browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
 
 3. Using the interface:
-   - Click "Crawl and Process Data" to fetch and process the latest NVIDIA CUDA documentation (this may take some time).
+   - If you want to use the pre-existing sample data:
+     - Ensure the `output.json` file is present in the project directory.
+     - Click "Crawl and Process Data". This will not re-crawl the data but will process the existing `output.json` file.
+   - If you want to crawl fresh data:
+     - Remove or rename the existing `output.json` file.
+     - Click "Crawl and Process Data" to fetch and process the latest NVIDIA CUDA documentation (this may take some time).
    - Once processing is complete, enter your question about CUDA in the text input field.
    - Click "Get Answer" to retrieve relevant information and generate an answer.
    - View the answer and the top relevant documents, including their titles and URLs.
 
 4. To clear the database and start fresh:
    - Click the "Clear Database" button in the Streamlit interface.
+   - This will delete the `output.json` file as well.
+  
+Note: Make sure the Milvus container is running on Docker while testing. 
 
 ## Project Structure
 
@@ -108,4 +116,3 @@ This project implements a Question Answering system for NVIDIA CUDA documentatio
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
