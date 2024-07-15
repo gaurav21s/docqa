@@ -23,7 +23,7 @@ This project implements a Question Answering system for NVIDIA CUDA documentatio
 ## Prerequisites
 
 - Python 3.8 or higher
-- Milvus vector database
+- Docker (for running Milvus)
 
 ## Installation
 
