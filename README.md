@@ -17,7 +17,7 @@ This project implements a Question Answering system for NVIDIA CUDA documentatio
 - Advanced data preprocessing and chunking
 - Hybrid retrieval system combining BM25 and DPR
 - Re-ranking of retrieved documents
-- Question answering using the Llama-2-70b-chat model
+- Question answering using the LLM
 - User-friendly Streamlit interface
 
 ## Prerequisites
