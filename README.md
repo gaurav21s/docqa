@@ -29,8 +29,8 @@ This project implements a Question Answering system for NVIDIA CUDA documentatio
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/nvidia-cuda-qa-system.git
-   cd nvidia-cuda-qa-system
+   git clone https://github.com/yourusername/docqa.git
+   cd docqa
    ```
 
 2. Create a virtual environment (optional but recommended):
